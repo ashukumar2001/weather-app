@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
 
             // API key for weatherapi.com
             let apiKey = "b26ed06de6a64988b24111205202209";
-            let weatherApi = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}`;
+            let weatherApi = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${long}`;
 
             showLoading();
             fetch(weatherApi)
